@@ -1,0 +1,15 @@
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\bin\Debug\net6.0\sinafApi.Services.deps.json
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\bin\Debug\net6.0\sinafApi.Services.dll
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\bin\Debug\net6.0\sinafApi.Services.pdb
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\bin\Debug\net6.0\sinafApi.Domain.dll
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\bin\Debug\net6.0\sinafApi.Domain.pdb
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\obj\Debug\net6.0\sinafApi.Services.csproj.AssemblyReference.cache
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\obj\Debug\net6.0\sinafApi.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\obj\Debug\net6.0\sinafApi.Services.AssemblyInfoInputs.cache
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\obj\Debug\net6.0\sinafApi.Services.AssemblyInfo.cs
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\obj\Debug\net6.0\sinafApi.Services.csproj.CoreCompileInputs.cache
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\obj\Debug\net6.0\sinafApi.Services.csproj.CopyComplete
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\obj\Debug\net6.0\sinafApi.Services.dll
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\obj\Debug\net6.0\refint\sinafApi.Services.dll
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\obj\Debug\net6.0\sinafApi.Services.pdb
+D:\Direcionamento de pastas\Atual\Downloads\sinafs\sinaf-api\2-Services\sinafApi.Services\obj\Debug\net6.0\ref\sinafApi.Services.dll

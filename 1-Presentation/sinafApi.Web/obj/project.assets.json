@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "sinafApi.Domain/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/sinafApi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/sinafApi.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "sinafApi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../4-Domain/sinafApi.Domain/sinafApi.Domain.csproj",
+      "msbuildProject": "../../4-Domain/sinafApi.Domain/sinafApi.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "sinafApi.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Gustavo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Direcionamento de pastas\\Atual\\Downloads\\sinafs\\sinaf-api\\1-Presentation\\sinafApi.Web\\sinafApi.Web.csproj",
+      "projectName": "sinafApi.Web",
+      "projectPath": "D:\\Direcionamento de pastas\\Atual\\Downloads\\sinafs\\sinaf-api\\1-Presentation\\sinafApi.Web\\sinafApi.Web.csproj",
+      "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+      "outputPath": "D:\\Direcionamento de pastas\\Atual\\Downloads\\sinafs\\sinaf-api\\1-Presentation\\sinafApi.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Direcionamento de pastas\\Atual\\Downloads\\sinafs\\sinaf-api\\4-Domain\\sinafApi.Domain\\sinafApi.Domain.csproj": {
+              "projectPath": "D:\\Direcionamento de pastas\\Atual\\Downloads\\sinafs\\sinaf-api\\4-Domain\\sinafApi.Domain\\sinafApi.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto sinafApi.Domain não é compatível com netcoreapp3.1 (.NETCoreApp,Version=v3.1). O projeto sinafApi.Domain dá suporte a: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "sinafApi.Domain",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
