@@ -115,10 +115,6 @@ namespace SinafApi.Services.Services
             throw new NotImplementedException();
         }
 
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
 
         public TEntity GetBy(Expression<Func<TEntity, bool>> predicate, params Expression<Func<TEntity, object>>[] includes)
         {
@@ -131,6 +127,11 @@ namespace SinafApi.Services.Services
         }
 
         public IQueryable<TEntity> GetByAsQueryable(Expression<Func<TEntity, bool>> predicate, params Expression<Func<TEntity, object>>[] includes)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Dispose()
         {
             throw new NotImplementedException();
         }

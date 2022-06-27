@@ -13,7 +13,7 @@ namespace SinafApi.Infra.Data.Context
         }
 
         public DbSet<Cliente> Cliente { get; set; }
-        public DbSet<Endereco> Endereco { get; set; }
+        //public DbSet<Endereco> Endereco { get; set; }
         // Relação de mapping
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

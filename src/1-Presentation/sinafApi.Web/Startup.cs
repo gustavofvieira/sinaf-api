@@ -2,12 +2,14 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using SinafApi.Domain.Interfaces.Repositories;
 using SinafApi.Domain.Interfaces.Services;
+using SinafApi.Infra.Data.Context;
 using SinafApi.Infra.Data.Repositories;
 using SinafApi.Services.Services;
 using System;
@@ -29,7 +31,10 @@ namespace sinafApi.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connectionString = "Server=DESKTOP-LE3H1LT;Database=sinaf;Trusted_Connection=true";
             services.AddControllers();
+            services.AddDbContext<DBSinafContext>(options => options.UseSqlServer(connectionString))
+                    .AddScoped<DBSinafContext, DBSinafContext>();
             services.AddScoped<IClienteService, ClienteService>();
             services.AddScoped<IClienteRepository, ClienteRepository>();
         }
