@@ -1,45 +1,41 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A515B57A-B904-48F8-8B5F-0671E90CC32C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{940E48AC-5ABE-418D-A0A2-DC6B019A2163}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sinafApi.Web", "src\1-Presentation\sinafApi.Web\sinafApi.Web.csproj", "{8DE3FE48-60FD-40F8-9E23-D7C52C23D378}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Domain", "4-Domain", "{6CC9279E-31D9-4F00-8CF8-2E1EC94CB782}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sinafApi.Domain", "src\4-Domain\sinafApi.Domain\sinafApi.Domain.csproj", "{06C32102-F55A-4280-A87F-9C7BA0A52F07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sinafApi.Domain", "src\4-Domain\sinafApi.Domain\sinafApi.Domain.csproj", "{06C32102-F55A-4280-A87F-9C7BA0A52F07}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Infra", "5-Infra", "{B39C1466-BE19-4E4D-8F70-62E513E82DB8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1-Data", "5.1-Data", "{6A8F7977-376B-405F-9D30-FDA228D2C133}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sinafApi.Infra.Data", "src\5-Infra\5.1-Data\sinafApi.Infra.Data\sinafApi.Infra.Data.csproj", "{E829DC26-95AA-4387-948B-9A0BA2DF5D8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sinafApi.Infra.Data", "src\5-Infra\5.1-Data\sinafApi.Infra.Data\sinafApi.Infra.Data.csproj", "{E829DC26-95AA-4387-948B-9A0BA2DF5D8E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Services", "2-Services", "{A87913DD-FCFF-449E-9FE7-BD45986B7A2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sinafApi.Services", "src\2-Services\sinafApi.Services\sinafApi.Services.csproj", "{452FCB77-0C43-437D-8F21-1F557E0046FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sinafApi.Services", "src\2-Services\sinafApi.Services\sinafApi.Services.csproj", "{452FCB77-0C43-437D-8F21-1F557E0046FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Application", "3-Application", "{17AEABB3-84B9-4D76-AF78-A5979CC24698}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sinafApi.Application", "src\3-Application\sinafApi.Application\sinafApi.Application.csproj", "{98072670-C681-43C3-AA9D-EBB5F37C56E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sinafApi.Application", "src\3-Application\sinafApi.Application\sinafApi.Application.csproj", "{98072670-C681-43C3-AA9D-EBB5F37C56E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sinafApi.Web", "sinafApi.Web\sinafApi.Web.csproj", "{9A3A2B95-BEFB-4D6A-938F-37C5492D18FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{06C32102-F55A-4280-A87F-9C7BA0A52F07} = {06C32102-F55A-4280-A87F-9C7BA0A52F07}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8DE3FE48-60FD-40F8-9E23-D7C52C23D378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8DE3FE48-60FD-40F8-9E23-D7C52C23D378}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8DE3FE48-60FD-40F8-9E23-D7C52C23D378}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8DE3FE48-60FD-40F8-9E23-D7C52C23D378}.Release|Any CPU.Build.0 = Release|Any CPU
 		{06C32102-F55A-4280-A87F-9C7BA0A52F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{06C32102-F55A-4280-A87F-9C7BA0A52F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06C32102-F55A-4280-A87F-9C7BA0A52F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -56,10 +52,16 @@ Global
 		{98072670-C681-43C3-AA9D-EBB5F37C56E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98072670-C681-43C3-AA9D-EBB5F37C56E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98072670-C681-43C3-AA9D-EBB5F37C56E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3A2B95-BEFB-4D6A-938F-37C5492D18FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3A2B95-BEFB-4D6A-938F-37C5492D18FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3A2B95-BEFB-4D6A-938F-37C5492D18FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3A2B95-BEFB-4D6A-938F-37C5492D18FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{940E48AC-5ABE-418D-A0A2-DC6B019A2163} = {A515B57A-B904-48F8-8B5F-0671E90CC32C}
-		{8DE3FE48-60FD-40F8-9E23-D7C52C23D378} = {940E48AC-5ABE-418D-A0A2-DC6B019A2163}
 		{6CC9279E-31D9-4F00-8CF8-2E1EC94CB782} = {A515B57A-B904-48F8-8B5F-0671E90CC32C}
 		{06C32102-F55A-4280-A87F-9C7BA0A52F07} = {6CC9279E-31D9-4F00-8CF8-2E1EC94CB782}
 		{B39C1466-BE19-4E4D-8F70-62E513E82DB8} = {A515B57A-B904-48F8-8B5F-0671E90CC32C}
@@ -69,5 +71,9 @@ Global
 		{452FCB77-0C43-437D-8F21-1F557E0046FA} = {A87913DD-FCFF-449E-9FE7-BD45986B7A2D}
 		{17AEABB3-84B9-4D76-AF78-A5979CC24698} = {A515B57A-B904-48F8-8B5F-0671E90CC32C}
 		{98072670-C681-43C3-AA9D-EBB5F37C56E3} = {17AEABB3-84B9-4D76-AF78-A5979CC24698}
+		{9A3A2B95-BEFB-4D6A-938F-37C5492D18FF} = {940E48AC-5ABE-418D-A0A2-DC6B019A2163}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60DBC66B-FAE4-4F10-858A-DFF9066DF384}
 	EndGlobalSection
 EndGlobal

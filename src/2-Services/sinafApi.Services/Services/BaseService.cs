@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using SinafApi.Domain.Interfaces.Repositories;
@@ -113,6 +116,21 @@ namespace SinafApi.Services.Services
         }
 
         public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+
+        public TEntity GetBy(Expression<Func<TEntity, bool>> predicate, params Expression<Func<TEntity, object>>[] includes)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<TEntity> GetByToList(Expression<Func<TEntity, bool>> predicate, params Expression<Func<TEntity, object>>[] includes)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IQueryable<TEntity> GetByAsQueryable(Expression<Func<TEntity, bool>> predicate, params Expression<Func<TEntity, object>>[] includes)
         {
             throw new NotImplementedException();
         }

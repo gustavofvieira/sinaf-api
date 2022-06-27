@@ -8,8 +8,4 @@
     <ProjectReference Include="..\..\4-Domain\sinafApi.Domain\sinafApi.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.6" />
-  </ItemGroup>
-
 </Project>
