@@ -9,7 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\2-Services\sinafApi.Services\sinafApi.Services.csproj" />
-    <ProjectReference Include="..\src\4-Domain\sinafApi.Domain\sinafApi.Domain.csproj" />
+    <ProjectReference Include="..\..\2-Services\sinafApi.Services\sinafApi.Services.csproj" />
+    <ProjectReference Include="..\..\4-Domain\sinafApi.Domain\sinafApi.Domain.csproj" />
+    <ProjectReference Include="..\..\5-Infra\5.1-Data\sinafApi.Infra.Data\sinafApi.Infra.Data.csproj" />
   </ItemGroup>
 </Project>
