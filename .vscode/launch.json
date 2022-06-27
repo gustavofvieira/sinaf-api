@@ -1,0 +1,52 @@
+{
+  // Use IntelliSense to find out which attributes exist for C# debugging
+  // Use hover for the description of the existing attributes
+  // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Core Launch (api)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/1-Presentation/sinafApi.Web/bin/Debug/netcoreapp3.1/sinafApi.Web.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/1-Presentation/sinafApi.Web",
+      "console": "internalConsole",
+      "stopAtEntry": false,
+      "requireExactSource": false,
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "dev",
+        "ASPNETCORE_URLS": "http://localhost:5007/"
+      },
+      "logging": {
+        "moduleLoad": false
+      }
+    },
+    {
+      "name": "teste",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/1-Presentation/teste/bin/Debug/netcoreapp3.1/teste.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/1-Presentation/teste",
+      "console": "internalConsole",
+      "stopAtEntry": false,
+      "requireExactSource": false,
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "dev",
+        "ASPNETCORE_URLS": "http://localhost:5002/"
+      },
+      "logging": {
+        "moduleLoad": false
+      }
+    },
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach",
+      "processId": "${command:pickProcess}"
+    }
+  ]
+}
