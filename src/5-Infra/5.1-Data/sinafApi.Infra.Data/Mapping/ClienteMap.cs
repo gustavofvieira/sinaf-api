@@ -24,8 +24,8 @@ namespace SinafApi.Infra.Data.Mapping
             builder.Property(c => c.Cpf)
                 .HasColumnName("Cpf");
 
-            //builder.Property(c => c.DtNasc)
-            //    .HasColumnName("DtNasc");
+            builder.Property(c => c.DtNasc)
+                .HasColumnName("DtNasc");
 
             builder.Property(c => c.Sexo)
                 .HasColumnName("Sexo");

@@ -8,7 +8,7 @@ namespace SinafApi.Domain.Models
     {
         public Guid IdCliente { get; set; }
         public string Nome { get; set; }
-        //public DateTime DtNasc { get; set; }
+        public DateTime DtNasc { get; set; }
         public string Cpf { get; set; }
         public Sexo Sexo { get; set; }   
         //public List<Endereco> Enderecos { get; set; }    

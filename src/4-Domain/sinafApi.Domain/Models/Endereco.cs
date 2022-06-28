@@ -11,5 +11,6 @@ namespace SinafApi.Domain.Models
         public string Cidade { get; set; }
         public string Estado { get; set; }
         public string Pais { get; set; }
+        public string CEP { get; set; }
     }
 }

@@ -23,13 +23,16 @@ public class ClienteController : ControllerBase
         public ActionResult cadastrarCliente(Cliente cliente)
         {
             _clienteService.Cadastrar(cliente);
+            _logger.LogInformation("Cliente cadastrado com sucesso.");
             return Ok("Cliente cadastrado com sucesso.");
         }
 
         [HttpGet]
-        public ActionResult cadastraCliente()
+        [Route("buscar")]
+        public ActionResult buscarPorNome(string nome)
         {
-            return Ok("Cliente cadastrado com sucesso.");
+            _logger.LogInformation("Busca por nome do cliente.");
+            return Ok(_clienteService.buscarPorNome(nome));
         }
 
     }

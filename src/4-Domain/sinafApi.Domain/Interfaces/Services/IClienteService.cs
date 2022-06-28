@@ -1,4 +1,5 @@
 using SinafApi.Domain.Models;
+using System.Collections.Generic;
 
 namespace SinafApi.Domain.Interfaces.Services
 {
@@ -6,5 +7,6 @@ namespace SinafApi.Domain.Interfaces.Services
     {
        
         void Cadastrar(Cliente cliente);
+        List<Cliente> buscarPorNome(string nome);
     }
 }

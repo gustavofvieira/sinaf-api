@@ -15,7 +15,7 @@ namespace SinafApi.Infra.Data.Repositories
         public void Cadastrar(Cliente cliente)
         {
             CheckContext();
-            _Db.Cliente.Add(cliente);
+            _Db.Clientes.Add(cliente);
             _Db.SaveChanges();
         }
 
@@ -29,7 +29,7 @@ namespace SinafApi.Infra.Data.Repositories
         public Cliente BuscarCliente(Cliente cliente)
         {
             CheckContext();
-            Cliente c = _Db.Cliente
+            Cliente c = _Db.Clientes
                 .FirstOrDefault(x => x.IdCliente == cliente.IdCliente);
 
             return c;
