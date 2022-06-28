@@ -31,9 +31,9 @@ namespace sinafApi.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var connectionString = "Server=DESKTOP-LE3H1LT;Database=sinaf;Trusted_Connection=true";
+
             services.AddControllers();
-            services.AddDbContext<DBSinafContext>(options => options.UseSqlServer(connectionString))
+            services.AddDbContext<DBSinafContext>(options => options.UseSqlServer(Environment.GetEnvironmentVariable("ConnectionString")))
                     .AddScoped<DBSinafContext, DBSinafContext>();
             services.AddScoped<IClienteService, ClienteService>();
             services.AddScoped<IClienteRepository, ClienteRepository>();
